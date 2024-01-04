@@ -1,0 +1,459 @@
+html
+    font-size: 62.5%
+
+body
+    font-family: 'Poppins', sans-serif
+    font-weight: 400
+    color: $gray-dark
+
+.nav-text-left
+    @include stylelink($color-white)
+    font-size: 4rem
+    font-weight: 800
+    line-height: 109.5%
+    margin-right: 17.2rem
+    &__span
+        color: #FFC1D8
+
+.header-link
+    display: flex
+    li                
+        margin-right: 7.6rem
+        list-style: none
+        
+    &__text
+        @include stylelink($color-white)
+        &:hover
+            color: $color-pink
+.header-big-text
+    text-align: center
+    color: $color-white
+    font-size: 70px
+    font-weight: 700
+    line-height: 110%
+.big-text-span
+    color: $color-pink
+.text-title
+    color: $color-white
+    font-size: 4rem
+    font-weight: 700
+    &_red 
+        color: $color-red
+.body-text-title
+    position: absolute
+    top: 19.7rem
+    right: 26.6rem
+.subtitle-text
+    color: $gray-dark
+    font-size: 1.6rem
+    font-weight: 400
+    line-height: 3.7rem
+.body-text-subtitle
+    position: absolute
+    top: 26.3rem
+    right: 14rem
+    width: 54rem
+    height: 16.3rem
+.section-three-title
+    &__title-doit
+        color: $color-white
+        text-align: center
+        text-shadow: 0rem 0rem 6rem rgba(0, 0, 0, 0.46)
+        font-size: 6rem
+        font-weight: 700
+    &__subtitle-text
+        width: 53.3rem
+        height: 10.6rem
+        margin: 0 auto
+    &__subtitle
+        color: $color-white
+        text-align: center
+        text-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.50)
+        font-size: 1.7rem
+        font-weight: 600
+.premium-title
+    position: absolute
+    top: 32rem
+    left: 15.5rem
+.comment-title
+    width: 41.4rem
+    height: 11.4rem
+    color: $gray-dark
+    font-size: 4.8rem
+    font-weight: 600
+    line-height: 119.2%
+    margin-bottom: 1.2rem
+.comment-subtitle
+    color: $gray-dark
+    font-size: 1.8rem
+    font-weight: 400
+.card-comment-lost
+    color: $color-red
+    font-size: 3.8rem
+    font-weight: 600
+    line-height: 119.2%
+    margin-bottom: 1.4rem
+.card-comment-text
+    width: 25.3rem
+    height: 24.2rem
+    color: $gray-dark
+    font-size: 1.8rem
+    font-weight: 400
+    line-height: 3.2rem
+.card-name
+    color: $gray-dark
+    font-size: 1.8rem
+    font-weight: 600
+    line-height: 3.4rem
+    span
+        color: #969BAB
+        font-size: 1.4rem
+        font-weight: 400
+        line-height: 3.4rem
+.card-text-mary
+    width: 35.3rem
+    height: 14.5rem
+    color: $gray-dark
+    font-size: 1.8rem
+    font-weight: 400
+    line-height: 3.2rem
+.card-text-robert
+    width: 25.6rem
+    height: 6.9rem
+    color: $gray-dark
+    font-size: 1.8rem
+    font-weight: 400
+    line-height: 3.2rem
+.app-subtitle
+    width: 48.9rem
+    height: 16.3rem
+    color: $color-white
+    font-size: 1.6rem
+    font-weight: 400
+    line-height: 3.7rem
+    margin-bottom: .3rem
+.app-download
+    color: rgba(255, 255, 255, 0.60)
+    font-size: 1.6rem
+    font-weight: 400
+    margin-bottom: 0.9rem
+.social-title
+    color: $color-red
+    text-align: center
+    font-size: 4rem
+    font-weight: 700
+    margin-bottom: 1.8rem
+.goodlyfe-title
+    width: 12rem
+    height: 2.8rem
+    color: $color-white
+    text-align: center
+    font-size: 2.5rem
+    font-weight: 800
+    line-height: 109.5%
+    margin-bottom: 2.4rem
+    span
+        color: $color-red
+.goodlyfe-text
+    width: 25.5rem
+    color: var(--text-gray-300, #D9DBE1)
+    font-feature-settings: 'liga' off
+    font-family: 'Manrope', sans-serif
+    font-size: 1.4rem
+    font-weight: 400
+    line-height: 2.4rem
+    margin-bottom: 2.4rem
+.quick-links-title
+    width: 25.5rem
+    color: var(--default-white, #FFF)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 2rem
+    font-style: normal
+    font-weight: 500
+    line-height: 3rem
+    margin-bottom: 2.4rem
+.footer-link
+    color: var(--text-gray-300, #D9DBE1)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 1.4rem
+    font-style: normal
+    font-weight: 400
+    line-height: 2.4rem
+    text-decoration: none
+    margin-bottom: 1.2rem
+    &:last-child
+        margin-bottom: 0
+    &:hover
+        color: $color-red
+.guides-title
+    width: 25.5rem
+    color: var(--default-white, $color-white)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 2rem
+    font-weight: 500
+    line-height: 3rem
+    margin-bottom: 2.4rem
+.guides-links
+    color: var(--text-gray-300, #D9DBE1)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 1.4rem
+    font-style: normal
+    font-weight: 400
+    line-height: 2.4rem
+    text-decoration: none
+    margin-bottom: 1.2rem
+    &:last-child
+        margin-bottom: 0
+    &:hover
+        color: $color-red
+.reach-us-title
+    color: var(--default-white, $color-white)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 2rem
+    font-weight: 500
+    line-height: 3rem
+    margin-bottom: 2.4rem
+.link-style
+    width: 23.3rem
+    a
+        color: var(--text-gray-300, #D9DBE1)
+        font-feature-settings: 'liga' off
+        font-family: Manrope
+        font-size: 1.4rem
+        font-weight: 400
+        line-height: 2.4rem
+        text-decoration: none
+        &:hover
+            color: $color-red
+.reserved-text
+    color: var(--text-gray-300, #D9DBE1)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 1.4rem
+    font-weight: 400
+    line-height: 2.4rem
+.style
+    color: var(--text-gray-300, #D9DBE1)
+    font-feature-settings: 'liga' off
+    font-family: Manrope
+    font-size: 1.4rem
+    font-weight: 400
+    line-height: 2.4rem
+
+// ==============================Media===================================
+@media screen and (max-width: 32rem)
+    .nav-text-left
+        color: $color-white
+        text-align: center
+        font-size: 2.1rem
+        font-weight: 800
+        line-height: 109.5%
+    .header-big-text
+        width: 31.5rem
+        height: 6.6rem
+        color: $color-white
+        text-align: center
+        font-size: 3.2rem
+        font-weight: 700
+        line-height: 3.6rem
+    .body-text-title
+        position: absolute
+        width: 26.1rem
+        height: 9.6rem
+        top: 36.2rem
+        left: 1.6rem
+    .body-text-subtitle
+        width: 26.9rem
+        height: 30.4rem
+        top: 46.9rem
+        left: 1.6rem
+    .text-title
+        color: $color-red
+        font-size: 4rem
+        font-weight: 700
+        line-height: 4.8rem
+    .subtitle-text
+        width: 26.9rem
+        height: 30.4rem
+        color: $gray-dark
+        font-size: 1.6rem
+        font-weight: 400
+        line-height: 3.2rem
+    .section-three-title
+        &__title-doit
+            position: absolute
+            top: 7.5rem
+            left: 1.7rem
+            width: 25.2rem
+            height: 13.8rem
+            font-family: Poppins
+            color: $color-white
+            text-shadow: 0px 0px 53.077px rgba(0, 0, 0, 0.46)
+            font-size: 4.2rem
+            font-weight: 700
+            line-height: 109.2%
+        &__subtitle-text
+            position: absolute
+            top: 23rem
+            right: 3rem
+            width: 25.7rem
+            height: 10.6rem
+        &__subtitle
+            font-family: Poppins
+            color: $color-white
+            text-align: center
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50)
+            font-size: 1.6rem
+            font-weight: 600
+            line-height: normal     
+    .premium-title
+        position: absolute
+        top: 288px
+        left: 16px
+        width: 259px
+        height: 91px
+        color: $color-red
+        font-family: Poppins
+        font-size: 40px
+        font-style: normal
+        font-weight: 700
+        line-height: 48px
+    .premim-subtitle
+        width: 269px
+        height: 304px
+        color: $gray-dark
+        font-family: Poppins
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 32px
+    .comment-title
+        position: absolute
+        top: 48px
+        left: 31px
+        width: 225.448px
+        height: 62.08px
+        color: var(--Grey-Two, $gray-dark)
+        font-family: Poppins
+        font-size: 26.139px
+        font-weight: 600
+        line-height: 119.2%
+    .comment-subtitle
+        position: absolute
+        top: 116px
+        left: 31px
+        width: 170.448px
+        height: 14.703px
+        color: var(--Grey-Two, $gray-dark)
+        font-family: Poppins
+        font-size: 9.802px
+        font-weight: 400
+        line-height: normal
+    .card-comment-lost
+        width: 116.337px
+        height: 31.348px
+        color: $color-red
+        font-family: Poppins
+        font-size: 26.472px
+        font-weight: 600
+        line-height: 119.2%
+    .card-comment-text
+        width: 176.247px
+        height: 168.584px
+        color: $gray-dark
+        font-family: Poppins
+        font-size: 10px
+        font-weight: 400
+        line-height: 22.292px
+    .card-name
+        position: absolute
+        right: 32px
+        bottom: 10px
+        color: $gray-dark
+        font-family: Poppins
+        font-size: 12.539px
+        font-weight: 600
+        line-height: 23.685px
+    .app-title
+        position: absolute
+        top: 60px
+        left: 15px
+        width: 269px
+    .text-title
+        color: $color-white
+        font-family: Poppins
+        font-size: 40px
+        font-weight: 700
+        line-height: 120%
+    .app-subtitle
+        position: absolute
+        top: 170px
+        left: 15px
+        width: 269px
+        height: 304px
+        color: $color-white
+        font-family: Poppins
+        font-size: 16px
+        font-weight: 400
+        line-height: 33px
+    .app-download
+        position: absolute
+        top: 418px
+        left: 15px
+        color: rgba(255, 255, 255, 0.60)
+        font-family: Poppins
+        font-size: 16px
+        font-weight: 400
+        line-height: normal
+    .social-title
+        color: $color-red
+        text-align: center
+        font-family: Poppins
+        font-size: 40px
+        font-weight: 700
+        line-height: normal
+    .goodlyfe-title
+        position: absolute
+        top: 40px
+        left: 32px
+        width: 120px
+        height: 28.235px
+        color: $color-white
+        font-family: Poppins
+        font-size: 25.668px
+        font-weight: 800
+        line-height: 109.5%
+    .goodlyfe-text
+        position: absolute
+        top: 92px
+        left: 32px
+        width: 255px
+        color: var(--Text-Gray-300, #D9DBE1)
+        font-family: Manrope
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+    .reserved-text
+        position: absolute
+        left: 36px
+        bottom: 25px
+        color: var(--Text-Gray-300, #D9DBE1)
+        text-align: center
+        font-feature-settings: 'liga' off
+        font-family: Poppins
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+
+
+
+
+
+
